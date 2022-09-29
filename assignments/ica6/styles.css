@@ -25,6 +25,7 @@ body {
     grid-template-columns: 3fr 1fr;
     gap: 20px;
   }
+
   
   nav {
     background-color: #000;
@@ -62,14 +63,5 @@ body {
     padding: 0 20px 20px 0;
   }
 
-  .article {
-    width: 200px;
-    float: left;
-    padding: 0 20px 20px 0;
-  }
 
-  .aside {
-    width: 200px;
-    float: left;
-    padding: 0 20px 20px 0;
-  }
+  
