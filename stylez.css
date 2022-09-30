@@ -5,7 +5,8 @@ body {
 
 @media all and (max-width: 500px) {
   nav a {
-    color:rgb(205, 122, 14)
+    color:rgb(205, 122, 14);
+    display: block;
   }
 }
 
