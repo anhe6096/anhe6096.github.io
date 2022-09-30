@@ -3,12 +3,7 @@ body {
 
 }
 
-@media all and (max-width: 500px) {
-  nav a {
-    color:rgb(205, 122, 14);
-    display: block;
-  }
-}
+
 
 nav {
     background-color: rgb(255, 255, 255);
@@ -33,6 +28,12 @@ nav a {
     font-size:xx-large;
   }
 
+@media all and (max-width: 10000px) {
+  nav ul {
+    color:rgb(205, 122, 14);
+    display:block;
+  }
+}
 
   p {
     font-family: 'Courier New', Courier, monospace;
