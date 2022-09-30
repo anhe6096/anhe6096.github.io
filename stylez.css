@@ -28,10 +28,9 @@ nav a {
     font-size:xx-large;
   }
 
-@media all and (max-width: 10000px) {
+@media all and (max-width: 900px) {
   nav ul {
-    color:rgb(205, 122, 14);
-    display:block;
+    justify-content: center;
   }
 }
 
