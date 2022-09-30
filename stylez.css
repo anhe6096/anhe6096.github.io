@@ -23,7 +23,7 @@ nav a {
 
   @media all and (max-width: 500px) {
     p {
-      color:blue;
+      font-style: italic;
     }
   }
 
