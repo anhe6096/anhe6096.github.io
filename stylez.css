@@ -1,5 +1,6 @@
 body {
   display: block;
+  justify-content: center;
 
 }
 
@@ -17,7 +18,7 @@ nav ul {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: center; 
   }
   
 nav a {
@@ -28,9 +29,9 @@ nav a {
     font-size:xx-large;
   }
 
-@media all and (max-width: 900px) {
-  nav ul {
-    justify-content: center;
+@media all and (max-width: 400px) {
+  nav a {
+    font-size: medium;
   }
 }
 
@@ -45,14 +46,14 @@ nav a {
 
 img {
   width: 200px;
-  display: block;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
 }
 .photos {
   list-style:none;
-  margin-left:375px;
-  margin-right: 375px;
+  margin-left:auto;
+  margin-right:auto;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
