@@ -34,14 +34,14 @@ nav a {
     font-weight:bold;
   }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   nav a {
     font-size: small;
     text-align: center;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   nav ul {
     display: block;
     text-align: center;
@@ -52,7 +52,6 @@ nav a {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     display: grid;
-    font-size: small;
   }
 
 img {
