@@ -34,14 +34,14 @@ nav a {
     font-weight:bold;
   }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   nav a {
     font-size: small;
     text-align: center;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   nav ul {
     display: block;
     text-align: center;
@@ -72,13 +72,13 @@ img {
   gap: 1px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   .photos {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 400px) {
   img {
     grid-template-columns: 1fr 1fr;
   }
