@@ -54,11 +54,12 @@ nav a {
   }
 
 img {
-  width: 200px;
+  width:200px;
   display: grid;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .photos {
   list-style:none;
