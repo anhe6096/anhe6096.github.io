@@ -19,7 +19,7 @@ nav ul {
     padding: 0;
     list-style: none;
     display:flex;
- 
+    justify-content: center;
   }
   
 nav a {
@@ -60,7 +60,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .photos {
   list-style:none;
@@ -68,7 +68,19 @@ img {
   margin-right:auto;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1px;
+}
+
+@media all and (max-width: 1000px) {
+  .photos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  img {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
