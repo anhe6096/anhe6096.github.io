@@ -2,7 +2,7 @@ body {
   display: grid;
   justify-content: center;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -19,7 +19,7 @@ nav ul {
     padding: 0;
     list-style: none;
     display:flex;
-    justify-content: center; 
+ 
   }
   
 nav a {
@@ -28,6 +28,10 @@ nav a {
     padding: .5em 1em;
     font-family: 'Courier New', Courier, monospace;
     font-size:xx-large;
+  }
+
+  a:hover {
+    font-weight:bold;
   }
 
 @media all and (max-width: 1000px) {
