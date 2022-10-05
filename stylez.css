@@ -52,6 +52,8 @@ nav a {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
 img {
@@ -62,6 +64,7 @@ img {
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .photos {
   list-style:none;
   margin-left:auto;
@@ -70,6 +73,25 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1px;
+}
+
+header {
+  font-size: xxx-large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bolder;
+  color:hotpink;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+li {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.feature {
+  width: 200px;
+  float: left;
+  padding: 0 20px 20px 0;
 }
 
 @media all and (max-width: 400px) {
