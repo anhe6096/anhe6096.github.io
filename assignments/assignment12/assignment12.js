@@ -60,7 +60,6 @@ let output = document.querySelector('.output');
 let outputInt = parseInt(output.textContent);
 
 
-
 let higherButton = document.querySelector('.higher-button').addEventListener('click', higher);
 let lowerButton = document.querySelector('.lower-button').addEventListener('click', lower);
 let submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
