@@ -81,7 +81,7 @@ header {
   font-weight:bolder;
   color:hotpink;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: hotpink;
 }
 
 li {
