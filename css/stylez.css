@@ -87,7 +87,9 @@ header {
 li {
   font-family: 'Courier New', Courier, monospace;
   list-style: none;
+  font-size: x-large;
 }
+
 
 .feature {
   width: 200px;
